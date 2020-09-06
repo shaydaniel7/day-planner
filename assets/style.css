@@ -1,8 +1,7 @@
 body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16;
-  line-height: 1;
-  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: .7;
+  padding: 5px;
 }
 
 textarea{
@@ -10,31 +9,45 @@ textarea{
   border: none;
   resize: none;
   color: #000000;
-  padding: 10px;
+  padding: 5px;
 }
 
 .jumbotron {
-  text-align: center;
-  background-color: rgb(219, 218, 218);
-  color: black;
-  border-radius: 0;
-  border: 2px dotted black;
+  text-align: left;
+  background-size: cover;
+  color: rgb(48, 47, 47);
 }
 
 .display-3 {
-  font-size: 42px;
-  font-weight: 1000;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 80px;
 }
 
 .lead {
-  font-size: 16px;
+  font-size: 19px;
+  line-height: .5;
   font-weight: lighter;
 }
 
-.description{
+.lead2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: .6;
+}
+
+.lead3 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 30px;
+  line-height: .6;
+}
+
+
+.eventName{
   white-space: pre-wrap;
   color: #000000;
-  background-color: rgb(232, 233, 232);
 }
 
 .time-block{
@@ -43,52 +56,76 @@ textarea{
 
 .row {
   white-space: pre-wrap;
-  height: 80px;
-  border-top: 1px solid white;;
+  height: 60px;
+  border: 1px double white;
 }
 
 .hour {
-  background-color: #375e36;
+  background-color: #a58b73;
   color: #ffffff;
-  padding-top: 30px;
+  padding-top: 20px;
 }
 .past {
-  background-color: #ac19ac;
-  color: white;
+  background-color: #e2e7eb;
+  color:  rgb(19, 19, 19);
 }
 
 .present {
-  background-color: #3a2681;
-  color: white;
+  background-color: #f9faf9;
+  color: rgb(19, 19, 19);
 }
 
 .future {
-  background-color: #77dd77;
-  color: rgb(190, 218, 34);
+  background-color: #f8f8d5;
+  color:  rgb(19, 19, 19);
 }
 
-.saveBtn {
-  background-color: #05667c;
+.saveButton {
+  background-color: #56614c;
   color: white;
 }
 
-.saveBtn i:hover {
+.saveButton i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
 
-/* @media (max-width: 768px) {
+#clearButtonContainer {
+  margin-top: 25px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
   .hour {
     width: 20%;
   }
 
-  .description {
+  .eventText {
     width: 60%;
   }
 
-  .saveBtn {
+  .saveButton {
     width: 20%;
   }
 
-} */
+  .display-3 {
+    font-size: 40px;
+  }
+
+  .lead2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: .1;
+  }
+  
+  .lead3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 15px;
+    line-height: .4;
+    }
+
+}
 
