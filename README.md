@@ -9,3 +9,5 @@ This activity is meant to help organize a day's events. It allows a person to sa
 
 Moment.js, Bootstrap, HTML, CSS, JavaScript and a small amount of jQuery.
 
+# Screenshot:
+
