@@ -1,23 +1,9 @@
 # day-planner
 
-USER STORY
+Purpose
+This activity is meant to help organize a day's events. It allows a person to save daily plans based on the hours of the day. The colors of the boxes change based on if the event is present, past, or upcoming. The events can be saved to local storage so that upon returning to the page it still contains the information inputted previously. There is a "clear" button at the bottom of the page that erases all entries. The header area features a current clock.
 
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
 
-ACCEPTANCE CRITERIA
+Uses:
+Moment.js, Bootstrap, HTML, CSS, JavaScript and a small amount of jQuery.
 
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
