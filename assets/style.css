@@ -58,11 +58,12 @@ textarea {
 .row {
   white-space: pre-wrap;
   height: 60px;
-  border: 1px double white;
+  border: 1px solid white;
 }
 
 .hour {
   background-color: #a58b73;
+  text-align: center;
   color: #ffffff;
   padding-top: 20px;
 }
