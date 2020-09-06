@@ -53,18 +53,18 @@ textarea{
   padding-top: 30px;
 }
 .past {
-  background-color: #d3d3d3;
+  background-color: #ac19ac;
   color: white;
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: #3a2681;
   color: white;
 }
 
 .future {
   background-color: #77dd77;
-  color: white;
+  color: rgb(190, 218, 34);
 }
 
 .saveBtn {
