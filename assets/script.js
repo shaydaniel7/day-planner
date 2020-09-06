@@ -23,7 +23,6 @@ function getCurrentTime() {
 
 function fillColor() {
     for (var i = 0; i < timeArray.length; i++) {
-        // console.log(document.getElementById("slot" + timeArray[i]));
         if (militaryTime > timeArray[i]) {
             $("#slot" + timeArray[i]).addClass("past");
         } else if (militaryTime == timeArray[i]) {
@@ -42,7 +41,7 @@ function saveEventText() {
         $(this).val(eventText);
     })
 }
-saveEventText(); //not sure this line is necessary?
+saveEventText(); 
 
 $(".saveButton").on("click", function() {
     var evTime = $(this).attr("id");
