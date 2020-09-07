@@ -1,6 +1,7 @@
 var militaryTime;
 var timeArray = [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18];
 
+// function calls
 getCurrentDay();
 getCurrentTime();
 getCurrentDate();
@@ -41,14 +42,16 @@ function saveEventText() {
         $(this).val(eventText);
     })
 }
-saveEventText(); 
 
+saveEventText(); 
+// save button event listener
 $(".saveButton").on("click", function() {
     var evTime = $(this).attr("id");
     var evText = $(this).siblings(".eventText").val();
     localStorage.setItem(evTime, evText);
 })
 
+// clear button event listener
 $("#clearButton").on("click", function () {
     var clear
     clear = $(".eventText").val("");

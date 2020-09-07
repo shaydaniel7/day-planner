@@ -22,20 +22,22 @@
     
     <div class="container">
 
+      <!-- jumbotron -->
       <header class="jumbotron" style="background-image: url(assets/wall-cal.jpg);">
-      
         <h1 class="display-3">Day Planner</h1>
         <br>
         <p class="lead">Go ahead, schedule your</p>
         <p class="lead">super-productive day!</p>
         <br>
+
+        <!-- clock -->
         <p id="currentDay" class="lead3"></p>
         <p id="currentDate" class="lead2"></p>
         <p id="currentTime" class="lead2"></p>
 
   
       </header>
-
+      <!-- hour blocks -->
       <div id ="6am" class="row time-block"> 
         <div class="col-sm-2 hour">6am</div>
         <textarea class="col-sm-9 eventText" id="slot6"></textarea>
@@ -114,7 +116,9 @@
         <button class="col-sm-1 fas fa-save btn-block saveButton" id="6pm"></button>
       </div>
     </div>
+    <!-- end hour blocks -->
 
+    <!-- clear button info -->
     <div id="clearButtonContainer"><button class= "btn btn-outline-secondary clearButton" id="clearButton">clear all</button></div>
 
 
