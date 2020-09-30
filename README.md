@@ -18,3 +18,7 @@ Moment.js, Bootstrap, HTML, CSS, JavaScript and a small amount of jQuery.
 Deployed application URL: https://shaydaniel7.github.io/day-planner-3/
 
 Github repository URL: https://github.com/shaydaniel7/day-planner-3/
+
+# Contact Info:
+
+shay@shaydaniel.com
