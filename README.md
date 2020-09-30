@@ -19,6 +19,6 @@ Deployed application URL: https://shaydaniel7.github.io/day-planner-3/
 
 Github repository URL: https://github.com/shaydaniel7/day-planner-3/
 
-# Contact Info:
+### Contact Info:
 
 shay@shaydaniel.com
