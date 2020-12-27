@@ -10,9 +10,9 @@ Moment.js, Bootstrap, HTML, CSS, JavaScript and a small amount of jQuery.
 <img width="773" alt="Untitled" src="https://user-images.githubusercontent.com/67557233/92336762-f2d42880-f058-11ea-83d8-b8ab7776ca46.png">
 
 ## Info:
-Deployed application URL: https://shaydaniel7.github.io/day-planner-3/
+Deployed application URL: https://shaydaniel7.github.io/day-planner/
 
-Github repository URL: https://github.com/shaydaniel7/day-planner-3/
+Github repository URL: https://github.com/shaydaniel7/day-planner/
 
 ### Contact Info:
 shay@shaydaniel.com
